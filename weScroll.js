@@ -1,5 +1,5 @@
 /*!
- * jQuery extend-based plugin from from validations
+ * jQuery extend-based plugin for animate scroll
  * Author: @weConnectMx
  * Licensed under the MIT license
  */
@@ -15,11 +15,12 @@
 
                 var $this = $(this);
                 //set the target
-                var target = $this.attr('we-maker');
+                var maker = $this.attr('we-maker');
+                var target = '[we-target=' + maker + ']';
                 //when click scroll to target
                 $this.on('click', function(){
                     jQuery("html, body").animate({ 
-                        scrollTop: jQuery('[we-target=' + target + ']').offset().top 
+                        scrollTop: jQuery(target).offset().top 
                     }, {
                         duration: options.speed,
                         easing: options.effect
