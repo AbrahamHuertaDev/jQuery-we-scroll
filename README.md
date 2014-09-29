@@ -29,6 +29,6 @@ jQuery('[we-scroll]').weScroll({
 	//set the speed
 	speed: 2000,
 	// set the easign effect
-	effect: 'easeOutBounce'
+	effect: 'swing'
 });
 ```
