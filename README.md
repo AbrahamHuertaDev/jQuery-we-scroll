@@ -15,7 +15,10 @@ Jquery plugin to animate scroll
   we-target: same as we-maker  
 -->
 <div we-target="bottom">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nesciunt animi maxime deserunt dolore aut doloremque odio rem ab, quia velit laboriosam praesentium repellendus repellat at facilis. Saepe, dolores in
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  Voluptates nesciunt animi maxime deserunt dolore aut doloremque odio rem ab, 
+  quia velit laboriosam praesentium repellendus repellat at facilis. 
+  Saepe, dolores in
 </div>
 ```
 
