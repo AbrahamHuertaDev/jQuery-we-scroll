@@ -23,8 +23,12 @@ Jquery plugin to animate scroll
 ```
 
 ```javascript
+
+//set up the plugin
 jQuery('[we-scroll]').weScroll({
+	//set the speed
 	speed: 2000,
+	// set the easign effect
 	effect: 'easeOutBounce'
 });
 ```
